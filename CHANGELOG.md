@@ -42,6 +42,8 @@ Section Order:
 
 <!-- Your changes go here -->
 
+## [0.1.0] - 2025-10-10
+
 ### Added
 
 - Limited `bcrypt` dependency to `<5` to avoid issues with `bcrypt>=5`
@@ -49,9 +51,12 @@ Section Order:
   - https://gitlab.com/allianceauth/allianceauth/-/merge_requests/1768 (waiting for release)
 - Limited `pydantic` dependency to `<2.12` to avoid issues with `pydantic>=2.12`
   - https://github.com/pydantic/pydantic/issues/12374
+  - https://github.com/pydantic/pydantic/issues/12360 (Duplicate of above)
+  - https://github.com/pydantic/pydantic/issues/12329 (Duplicate of above)
 
 <!-- Links to be updated upon release -->
 
-[in development]: https://github.com/ppfeufer/REPOSITORY/compare/v0.0.1...HEAD "In Development"
+[0.1.0]: https://github.com/ppfeufer/aa-intel-tool/commits/v0.1.0 "v0.1.0"
+[in development]: https://github.com/ppfeufer/aa-dependency-overrides/compare/v0.1.0...HEAD "In Development"
 [keep a changelog]: http://keepachangelog.com/ "Keep a Changelog"
 [semantic versioning]: http://semver.org/ "Semantic Versioning"
