@@ -44,9 +44,11 @@ Section Order:
 
 ### Added
 
-- Limited `bcrypt` dependency to `<5` to avoid issues with `bcrypt` >=5
+- Limited `bcrypt` dependency to `<5` to avoid issues with `bcrypt>=5`
   - https://gitlab.com/allianceauth/allianceauth/-/issues/1436
   - https://gitlab.com/allianceauth/allianceauth/-/merge_requests/1768 (waiting for release)
+- Limited `pydantic` dependency to `<2.12` to avoid issues with `pydantic>=2.12`
+  - https://github.com/pydantic/pydantic/issues/12374
 
 <!-- Links to be updated upon release -->
 
