@@ -42,6 +42,12 @@ Section Order:
 
 <!-- Your changes go here -->
 
+### Added
+
+- Limited `bcrypt` dependency to `<5` to avoid issues with `bcrypt` >=5
+  - https://gitlab.com/allianceauth/allianceauth/-/issues/1436
+  - https://gitlab.com/allianceauth/allianceauth/-/merge_requests/1768 (waiting for release)
+
 <!-- Links to be updated upon release -->
 
 [in development]: https://github.com/ppfeufer/REPOSITORY/compare/v0.0.1...HEAD "In Development"
