@@ -43,6 +43,7 @@ dynamic = [
 ]
 dependencies = [
     "allianceauth",
+    "bcrypt<5",     # Temporary fix for Mumble Authenticator issues with bcrypt>=5.0.0 (https://gitlab.com/allianceauth/allianceauth/-/issues/1436 / https://gitlab.com/allianceauth/allianceauth/-/merge_requests/1768)
 ]
 
 urls.Changelog = "https://github.com/ppfeufer/aa-dependency-overrides/blob/master/CHANGELOG.md"
