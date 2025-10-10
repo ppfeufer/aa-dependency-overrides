@@ -43,7 +43,8 @@ dynamic = [
 ]
 dependencies = [
     "allianceauth",
-    "bcrypt<5",     # Temporary fix for Mumble Authenticator issues with bcrypt>=5.0.0 (https://gitlab.com/allianceauth/allianceauth/-/issues/1436 / https://gitlab.com/allianceauth/allianceauth/-/merge_requests/1768)
+    "bcrypt<5",      # Temporary fix for Mumble Authenticator issues with bcrypt>=5.0.0 (https://gitlab.com/allianceauth/allianceauth/-/issues/1436 / https://gitlab.com/allianceauth/allianceauth/-/merge_requests/1768)
+    "pydantic<2.12", # Temporary fix for issues with pydantic>=2.12 (https://github.com/pydantic/pydantic/issues/12374)
 ]
 
 urls.Changelog = "https://github.com/ppfeufer/aa-dependency-overrides/blob/master/CHANGELOG.md"
