@@ -42,6 +42,8 @@ Section Order:
 
 <!-- Your changes go here -->
 
+## [0.2.0] - 2025-10-17
+
 ### Changed
 
 - Dependency to `allianceauth` to `>=4.11.0` to include fixes for `bcrypt`
@@ -67,6 +69,7 @@ Section Order:
 <!-- Links to be updated upon release -->
 
 [0.1.0]: https://github.com/ppfeufer/aa-intel-tool/commits/v0.1.0 "v0.1.0"
-[in development]: https://github.com/ppfeufer/aa-dependency-overrides/compare/v0.1.0...HEAD "In Development"
+[0.2.0]: https://github.com/ppfeufer/aa-dependency-overrides/compare/v0.1.0...v0.2.0 "v0.2.0"
+[in development]: https://github.com/ppfeufer/aa-dependency-overrides/compare/v0.2.0...HEAD "In Development"
 [keep a changelog]: http://keepachangelog.com/ "Keep a Changelog"
 [semantic versioning]: http://semver.org/ "Semantic Versioning"
