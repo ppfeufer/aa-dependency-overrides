@@ -42,6 +42,16 @@ Section Order:
 
 <!-- Your changes go here -->
 
+### Changed
+
+- Dependency to `allianceauth` to `>=4.11.0` to include fixes for `bcrypt`
+
+### Removed
+
+- Limitation of `bcrypt`, as this is now taken care of in `allianceauth>=4.11.0`
+  - https://gitlab.com/allianceauth/allianceauth/-/issues/1436
+  - https://gitlab.com/allianceauth/allianceauth/-/merge_requests/1768
+
 ## [0.1.0] - 2025-10-10
 
 ### Added
