@@ -46,9 +46,8 @@ dependencies = [
 
 urls.Changelog = "https://github.com/ppfeufer/aa-dependency-overrides/blob/master/CHANGELOG.md"
 urls.Documentation = "https://github.com/ppfeufer/aa-dependency-overrides/blob/master/README.md"
-urls.Donations = "https://ko-fi.com/ppfeufer"
-urls.Homepage = "https://github.com/ppfeufer/aa-dependency-overrides"
-urls.Source = "https://github.com/ppfeufer/aa-dependency-overrides.git"
+urls.Donation = "https://ko-fi.com/ppfeufer"
+urls.GitHub = "https://github.com/ppfeufer/aa-dependency-overrides"
 urls.Tracker = "https://github.com/ppfeufer/aa-dependency-overrides/issues"
 
 [tool.hatch.build]
