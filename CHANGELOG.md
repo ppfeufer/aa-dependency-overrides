@@ -42,6 +42,11 @@ Section Order:
 
 <!-- Your changes go here -->
 
+### Removed
+
+- Restrictions on `pydantic` as the issues with `pydantic>=2.12` have been resolved
+  in the latest release (v2.12.3 as of 2025-10-17)
+
 ## [0.2.0] - 2025-10-17
 
 ### Changed
