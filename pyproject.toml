@@ -41,7 +41,6 @@ dynamic = [
 ]
 dependencies = [
     "allianceauth>=4.11",
-    "pydantic<2.12",      # Temporary fix for issues with pydantic>=2.12 (https://github.com/pydantic/pydantic/issues/12374)
 ]
 
 urls.Changelog = "https://github.com/ppfeufer/aa-dependency-overrides/blob/master/CHANGELOG.md"
