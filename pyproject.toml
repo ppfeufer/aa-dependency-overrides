@@ -46,7 +46,7 @@ dependencies = [
     # https://github.com/vitalik/django-ninja/releases/tag/v1.5.0
     # https://github.com/vitalik/django-ninja/pull/1524
     # https://github.com/Solar-Helix-Independent-Transport/allianceauth-corp-tools/blob/master/corptools/api/__init__.py#L13
-    "django-ninja<=1.5",
+    "django-ninja<1.5",
 ]
 
 urls.Changelog = "https://github.com/ppfeufer/aa-dependency-overrides/blob/master/CHANGELOG.md"
