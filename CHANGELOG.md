@@ -42,6 +42,15 @@ Section Order:
 
 <!-- Your changes go here -->
 
+## [0.4.0] - 2025-11-13
+
+### Added
+
+- Temporary pin `django-ninja` to avoid issues with CSRF removal in later versions
+  - https://github.com/vitalik/django-ninja/releases/tag/v1.5.0
+  - https://github.com/vitalik/django-ninja/pull/1524
+  - https://github.com/Solar-Helix-Independent-Transport/allianceauth-corp-tools/blob/master/corptools/api/__init__.py#L13
+
 ## [0.3.0] - 2025-10-29
 
 ### Removed
@@ -78,6 +87,7 @@ Section Order:
 [0.1.0]: https://github.com/ppfeufer/aa-intel-tool/commits/v0.1.0 "v0.1.0"
 [0.2.0]: https://github.com/ppfeufer/aa-dependency-overrides/compare/v0.1.0...v0.2.0 "v0.2.0"
 [0.3.0]: https://github.com/ppfeufer/aa-dependency-overrides/compare/v0.2.0...v0.3.0 "v0.3.0"
-[in development]: https://github.com/ppfeufer/aa-dependency-overrides/compare/v0.3.0...HEAD "In Development"
+[0.4.0]: https://github.com/ppfeufer/aa-dependency-overrides/compare/v0.3.0...v0.4.0 "v0.4.0"
+[in development]: https://github.com/ppfeufer/aa-dependency-overrides/compare/v0.4.0...HEAD "In Development"
 [keep a changelog]: http://keepachangelog.com/ "Keep a Changelog"
 [semantic versioning]: http://semver.org/ "Semantic Versioning"
