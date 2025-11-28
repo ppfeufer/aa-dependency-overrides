@@ -42,6 +42,13 @@ Section Order:
 
 <!-- Your changes go here -->
 
+## [0.6.0] - 2025-11-28
+
+### Removed
+
+- Temporary pin of `django-ninja` removed, as the affected applications
+  have adapted to the changes in `django-ninja>=1.5.0`
+
 ## [0.5.0] - 2025-11-13
 
 ### Fixed
@@ -95,6 +102,7 @@ Section Order:
 [0.3.0]: https://github.com/ppfeufer/aa-dependency-overrides/compare/v0.2.0...v0.3.0 "v0.3.0"
 [0.4.0]: https://github.com/ppfeufer/aa-dependency-overrides/compare/v0.3.0...v0.4.0 "v0.4.0"
 [0.5.0]: https://github.com/ppfeufer/aa-dependency-overrides/compare/v0.4.0...v0.5.0 "v0.5.0"
-[in development]: https://github.com/ppfeufer/aa-dependency-overrides/compare/v0.5.0...HEAD "In Development"
+[0.6.0]: https://github.com/ppfeufer/aa-dependency-overrides/compare/v0.5.0...v0.6.0 "v0.6.0"
+[in development]: https://github.com/ppfeufer/aa-dependency-overrides/compare/v0.6.0...HEAD "In Development"
 [keep a changelog]: http://keepachangelog.com/ "Keep a Changelog"
 [semantic versioning]: http://semver.org/ "Semantic Versioning"

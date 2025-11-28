@@ -24,7 +24,7 @@ ______________________________________________________________________
 ## Installation<a name="installation"></a>
 
 ```shell
-pip install aa-dependency-overrides==0.5.0
+pip install aa-dependency-overrides==0.6.0
 ```
 
 Restart supervisor.
