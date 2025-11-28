@@ -40,13 +40,7 @@ dynamic = [
     "version",
 ]
 dependencies = [
-    "allianceauth>=4.11",
-    # Temporary pin django-ninja to avoid issues with CSRF removal in later versions
-    # see:
-    # https://github.com/vitalik/django-ninja/releases/tag/v1.5.0
-    # https://github.com/vitalik/django-ninja/pull/1524
-    # https://github.com/Solar-Helix-Independent-Transport/allianceauth-corp-tools/blob/master/corptools/api/__init__.py#L13
-    "django-ninja<1.5",
+    "allianceauth>=4.11", # Limit bcrypt to below 5.x
 ]
 
 urls.Changelog = "https://github.com/ppfeufer/aa-dependency-overrides/blob/master/CHANGELOG.md"
