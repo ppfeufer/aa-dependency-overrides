@@ -79,7 +79,7 @@ repos:
         description: Ensure that files end with a newline.
 
   - repo: https://github.com/editorconfig-checker/editorconfig-checker.python
-    rev: 62dcf364a52192458d66c0dba3a0a1fdb78e4fbe  # frozen: 3.4.1
+    rev: 11ea70506fd878d26129b2b87746fd1a1f6b561b  # frozen: 3.6.0
     hooks:
       - id: editorconfig-checker
         name: EditorConfig Checker
@@ -98,7 +98,7 @@ repos:
           - mdformat-shfmt==0.2.0  # Mdformat plugin to format shell code blocks » https://github.com/hukkin/mdformat-shfmt/tags
 
   - repo: https://github.com/tox-dev/pyproject-fmt
-    rev: 68b1ed526e7533ac54a2e42874b99ae6c26807a2  # frozen: v2.11.0
+    rev: d252a2a7678b47d1f2eea2f6b846ddfdcd012759  # frozen: v2.11.1
     hooks:
       - id: pyproject-fmt
         name: pyproject.toml formatter
