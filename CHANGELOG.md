@@ -42,6 +42,11 @@ Section Order:
 
 <!-- Your changes go here -->
 
+### Added
+
+- Limit `celery` to `<5.6.1`
+  - See: https://github.com/celery/celery/issues/9622
+
 ## [0.6.0] - 2025-11-28
 
 ### Removed
