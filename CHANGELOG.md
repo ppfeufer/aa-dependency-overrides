@@ -42,6 +42,8 @@ Section Order:
 
 <!-- Your changes go here -->
 
+## [0.7.0] - 2026-01-02
+
 ### Added
 
 - Limit `celery` to `<5.6.1`
@@ -108,6 +110,7 @@ Section Order:
 [0.4.0]: https://github.com/ppfeufer/aa-dependency-overrides/compare/v0.3.0...v0.4.0 "v0.4.0"
 [0.5.0]: https://github.com/ppfeufer/aa-dependency-overrides/compare/v0.4.0...v0.5.0 "v0.5.0"
 [0.6.0]: https://github.com/ppfeufer/aa-dependency-overrides/compare/v0.5.0...v0.6.0 "v0.6.0"
-[in development]: https://github.com/ppfeufer/aa-dependency-overrides/compare/v0.6.0...HEAD "In Development"
+[0.7.0]: https://github.com/ppfeufer/aa-dependency-overrides/compare/v0.6.0...v0.7.0 "v0.7.0"
+[in development]: https://github.com/ppfeufer/aa-dependency-overrides/compare/v0.7.0...HEAD "In Development"
 [keep a changelog]: http://keepachangelog.com/ "Keep a Changelog"
 [semantic versioning]: http://semver.org/ "Semantic Versioning"
