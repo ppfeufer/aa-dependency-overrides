@@ -41,7 +41,7 @@ dynamic = [
 ]
 dependencies = [
     "allianceauth>=4.11", # Limit bcrypt to below 5.x
-    "celery<5.6.1",       # Limit celery to below 5.6.1 due to https://github.com/celery/celery/issues/9622
+    "celery!=5.6.1",      # Exclude celery v5.6.1 due to https://discord.com/channels/399006117012832262/588572778366500864/1455519030839607380
 ]
 
 urls.Changelog = "https://github.com/ppfeufer/aa-dependency-overrides/blob/master/CHANGELOG.md"

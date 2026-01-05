@@ -42,12 +42,17 @@ Section Order:
 
 <!-- Your changes go here -->
 
+### Changed
+
+- Exclude `celery` v5.6.1 due to known issues
+  - See: https://discord.com/channels/399006117012832262/588572778366500864/1455519030839607380
+
 ## [0.7.0] - 2026-01-02
 
 ### Added
 
 - Limit `celery` to `<5.6.1`
-  - See: https://github.com/celery/celery/issues/9622
+  - See: https://discord.com/channels/399006117012832262/588572778366500864/1455519030839607380
 
 ## [0.6.0] - 2025-11-28
 
