@@ -42,6 +42,8 @@ Section Order:
 
 <!-- Your changes go here -->
 
+## [0.7.1] - 2026-01-05
+
 ### Changed
 
 - Exclude `celery` v5.6.1 due to known issues
@@ -116,6 +118,7 @@ Section Order:
 [0.5.0]: https://github.com/ppfeufer/aa-dependency-overrides/compare/v0.4.0...v0.5.0 "v0.5.0"
 [0.6.0]: https://github.com/ppfeufer/aa-dependency-overrides/compare/v0.5.0...v0.6.0 "v0.6.0"
 [0.7.0]: https://github.com/ppfeufer/aa-dependency-overrides/compare/v0.6.0...v0.7.0 "v0.7.0"
-[in development]: https://github.com/ppfeufer/aa-dependency-overrides/compare/v0.7.0...HEAD "In Development"
+[0.7.1]: https://github.com/ppfeufer/aa-dependency-overrides/compare/v0.7.0...v0.7.1 "v0.7.1"
+[in development]: https://github.com/ppfeufer/aa-dependency-overrides/compare/v0.7.1...HEAD "In Development"
 [keep a changelog]: http://keepachangelog.com/ "Keep a Changelog"
 [semantic versioning]: http://semver.org/ "Semantic Versioning"
