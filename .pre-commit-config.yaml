@@ -98,7 +98,7 @@ repos:
           - mdformat-shfmt==0.2.0  # Mdformat plugin to format shell code blocks » https://github.com/hukkin/mdformat-shfmt/tags
 
   - repo: https://github.com/tox-dev/pyproject-fmt
-    rev: d252a2a7678b47d1f2eea2f6b846ddfdcd012759  # frozen: v2.11.1
+    rev: 2a892e1706c9e0e1f853be3f34a9e04f0d5c86d9  # frozen: v2.12.1
     hooks:
       - id: pyproject-fmt
         name: pyproject.toml formatter
