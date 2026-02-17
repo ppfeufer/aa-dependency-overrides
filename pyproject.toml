@@ -42,7 +42,6 @@ dynamic = [
 dependencies = [
     "allianceauth>=4.11", # Limit bcrypt to below 5.x
     "celery!=5.6.1",      # Exclude celery v5.6.1 due to https://discord.com/channels/399006117012832262/588572778366500864/1455519030839607380
-    "gunicorn!=25.1",     # Exclude gunicorn v25.1.0 due to restart issues with supervisord (see: https://github.com/benoitc/gunicorn/discussions/3510, https://github.com/benoitc/gunicorn/discussions/3509, https://github.com/benoitc/gunicorn/discussions/3508)
 ]
 
 urls.Changelog = "https://github.com/ppfeufer/aa-dependency-overrides/blob/master/CHANGELOG.md"
