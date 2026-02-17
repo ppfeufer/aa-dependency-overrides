@@ -42,11 +42,15 @@ Section Order:
 
 <!-- Your changes go here -->
 
+### Added
+
+- Exclude for `gunicorn` v25.1.0 due to restart issues with `supervisor`
+
 ## [0.7.1] - 2026-01-05
 
-### Changed
+### Added
 
-- Exclude `celery` v5.6.1 due to known issues
+- Exclude for `celery` v5.6.1 due to known issues
   - See: https://discord.com/channels/399006117012832262/588572778366500864/1455519030839607380
 
 ## [0.7.0] - 2026-01-02
