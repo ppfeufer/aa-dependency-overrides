@@ -42,9 +42,15 @@ Section Order:
 
 <!-- Your changes go here -->
 
+## [0.8.0] - 2026-02-17
+
 ### Added
 
 - Exclude for `gunicorn` v25.1.0 due to restart issues with `supervisor`
+  - See:
+    - https://github.com/benoitc/gunicorn/discussions/3510
+    - https://github.com/benoitc/gunicorn/discussions/3509
+    - https://github.com/benoitc/gunicorn/discussions/3508
 
 ## [0.7.1] - 2026-01-05
 
@@ -123,6 +129,7 @@ Section Order:
 [0.6.0]: https://github.com/ppfeufer/aa-dependency-overrides/compare/v0.5.0...v0.6.0 "v0.6.0"
 [0.7.0]: https://github.com/ppfeufer/aa-dependency-overrides/compare/v0.6.0...v0.7.0 "v0.7.0"
 [0.7.1]: https://github.com/ppfeufer/aa-dependency-overrides/compare/v0.7.0...v0.7.1 "v0.7.1"
-[in development]: https://github.com/ppfeufer/aa-dependency-overrides/compare/v0.7.1...HEAD "In Development"
+[0.8.0]: https://github.com/ppfeufer/aa-dependency-overrides/compare/v0.7.1...v0.8.0 "v0.8.0"
+[in development]: https://github.com/ppfeufer/aa-dependency-overrides/compare/v0.8.0...HEAD "In Development"
 [keep a changelog]: http://keepachangelog.com/ "Keep a Changelog"
 [semantic versioning]: http://semver.org/ "Semantic Versioning"
