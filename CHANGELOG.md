@@ -42,6 +42,8 @@ Section Order:
 
 <!-- Your changes go here -->
 
+## [0.9.0] - 2026-02-17
+
 ### Removed
 
 - Version exclusion for `gunicorn` v25.1.0, as the issues with `supervisor` are
@@ -154,6 +156,7 @@ killasgroup = true
 [0.7.0]: https://github.com/ppfeufer/aa-dependency-overrides/compare/v0.6.0...v0.7.0 "v0.7.0"
 [0.7.1]: https://github.com/ppfeufer/aa-dependency-overrides/compare/v0.7.0...v0.7.1 "v0.7.1"
 [0.8.0]: https://github.com/ppfeufer/aa-dependency-overrides/compare/v0.7.1...v0.8.0 "v0.8.0"
-[in development]: https://github.com/ppfeufer/aa-dependency-overrides/compare/v0.8.0...HEAD "In Development"
+[0.9.0]: https://github.com/ppfeufer/aa-dependency-overrides/compare/v0.8.0...v0.9.0 "v0.9.0"
+[in development]: https://github.com/ppfeufer/aa-dependency-overrides/compare/v0.9.0...HEAD "In Development"
 [keep a changelog]: http://keepachangelog.com/ "Keep a Changelog"
 [semantic versioning]: http://semver.org/ "Semantic Versioning"
