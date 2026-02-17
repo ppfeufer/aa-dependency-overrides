@@ -42,6 +42,30 @@ Section Order:
 
 <!-- Your changes go here -->
 
+### Removed
+
+- Version exclusion for `gunicorn` v25.1.0, as the issues with `supervisor` are
+  resolved by adding the `--no-control-socket` option to the `gunicorn` command in
+  the `supervisor` configuration
+
+```ini
+; Gunicorn application server
+[program:gunicorn]
+command = %(ENV_AA_COMMAND_GUNICORN)s %(ENV_AA_PROJECT_NAME)s.wsgi
+    --workers 3
+    --timeout 120
+    --pid %(ENV_AA_PROJECT_DIRECTORY)s/gunicorn.pid
+    --no-control-socket
+directory = %(ENV_AA_PROJECT_DIRECTORY)s
+stdout_logfile = %(ENV_AA_PROJECT_DIRECTORY)s/log/%(program_name)s.log
+stderr_logfile = %(ENV_AA_PROJECT_DIRECTORY)s/log/%(program_name)s.log
+user = %(ENV_AA_USER)s
+autostart = true
+autorestart = true
+stopsignal = INT
+killasgroup = true
+```
+
 ## [0.8.0] - 2026-02-17
 
 ### Added
