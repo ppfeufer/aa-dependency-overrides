@@ -6,7 +6,10 @@ requires = [
 
 [project]
 name = "aa-dependency-overrides"
-description = "Dependency Overrides for Alliance Auth, in case one of the dependencies is causing issues after an update, due to a breaking change or bug."
+description = """\
+    Dependency Overrides for Alliance Auth, in case one of the dependencies is causing issues after an update, due to \
+    a breaking change or bug.\
+    """
 readme = "README.md"
 keywords = [
     "allianceauth",
@@ -43,17 +46,14 @@ dependencies = [
     "allianceauth>=4.11", # Limit bcrypt to below 5.x
     "celery!=5.6.1",      # Exclude celery v5.6.1 due to https://discord.com/channels/399006117012832262/588572778366500864/1455519030839607380
 ]
-
 urls.Changelog = "https://github.com/ppfeufer/aa-dependency-overrides/blob/master/CHANGELOG.md"
 urls.Documentation = "https://github.com/ppfeufer/aa-dependency-overrides/blob/master/README.md"
 urls.Donation = "https://ko-fi.com/ppfeufer"
 urls.GitHub = "https://github.com/ppfeufer/aa-dependency-overrides"
 urls.Tracker = "https://github.com/ppfeufer/aa-dependency-overrides/issues"
 
-[tool.hatch.build]
-include = [
+[tool.hatch]
+build.include = [
     "/aa_dependency_overrides",
 ]
-
-[tool.hatch.version]
-path = "aa_dependency_overrides/__init__.py"
+version.path = "aa_dependency_overrides/__init__.py"
