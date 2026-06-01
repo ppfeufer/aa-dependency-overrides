@@ -53,7 +53,7 @@ urls.GitHub = "https://github.com/ppfeufer/aa-dependency-overrides"
 urls.Tracker = "https://github.com/ppfeufer/aa-dependency-overrides/issues"
 
 [tool.hatch]
+version.path = "aa_dependency_overrides/__init__.py"
 build.include = [
     "/aa_dependency_overrides",
 ]
-version.path = "aa_dependency_overrides/__init__.py"
