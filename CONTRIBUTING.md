@@ -20,7 +20,7 @@ ______________________________________________________________________
 
 - [License Agreements](#license-agreements)
   - [Project License](#project-license)
-  - [CCP](#ccp)
+  - [Fenris Creations](#fenris-creations)
 - [Development Environment](#development-environment)
 - [Make Targets](#make-targets)
   - [General](#general)
@@ -47,10 +47,10 @@ This project is licensed under the GNU General Public License v3.0 (GPLv3). See 
 By contributing code to this project, you agree that your contributions will be
 licensed under the same license as the project itself.
 
-### CCP<a name="ccp"></a>
+### Fenris Creations<a name="fenris-creations"></a>
 
-This project is not affiliated with CCP Games in any way. All EVE Online related
-content is the property of CCP Games.
+This project is not affiliated with Fenris Creations in any way. All EVE Online related
+content is the property of Fenris Creations.
 
 Please make sure you have signed the [Developer License Agreement]
 by logging in at [EVE: Developers Portal] before contributing any code.
