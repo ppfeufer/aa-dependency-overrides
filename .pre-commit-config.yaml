@@ -6,7 +6,7 @@
 # Set the default language versions for the hooks
 default_language_version:
   python: python3  # Force all Python hooks to use Python 3
-  node: 24.14.0  # Force all Node hooks to use this specific Node version
+  node: 26.3.0  # Force all Node hooks to use this specific Node version
 
 # https://pre-commit.ci/
 ci:
@@ -51,7 +51,7 @@ repos:
         name: Check for large files
         description: Check for large files that were added to the repository.
         args:
-          - --maxkb=1000
+          - --maxkb=2048  # 2 MB
 
       - id: detect-private-key
         name: Detect private key
@@ -110,7 +110,7 @@ repos:
         args:
           - --indent=4
         additional_dependencies:
-          - tox==4.58.0  # https://github.com/tox-dev/tox/releases/latest
+          - tox==4.61.2  # https://github.com/tox-dev/tox/releases/latest
 
   - repo: https://github.com/abravalheri/validate-pyproject
     rev: 17e12779811926f000bdfa1795f9e3735dd71ac3  # frozen: 0.26
