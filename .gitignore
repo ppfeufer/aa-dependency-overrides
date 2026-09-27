@@ -17,3 +17,4 @@ alliance_auth.sqlite3
 
 .esi-compatibility-date
 .make/myauth-path
+/.make/config-overrides.ini

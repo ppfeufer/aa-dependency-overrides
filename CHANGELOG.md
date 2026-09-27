@@ -42,6 +42,11 @@ Section Order:
 
 <!-- Your changes go here -->
 
+### Added
+
+- Limit for `aiopenapi3` to `<0.11.0` due to breaking changes in v0.11.0
+  - See: https://gitlab.com/allianceauth/django-esi/-/work_items/66
+
 ## [0.9.0] - 2026-02-17
 
 ### Removed
