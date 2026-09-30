@@ -44,9 +44,9 @@ dynamic = [
     "version",
 ]
 dependencies = [
-    "aiopenapi3<0.11",    # Limit aiopenapi3 to below 0.11.0, see https://gitlab.com/allianceauth/django-esi/-/work_items/66
     "allianceauth>=4.11", # Limit bcrypt to below 5.x
-    "celery!=5.6.1"      # Exclude celery v5.6.1 due to https://discord.com/channels/399006117012832262/588572778366500864/1455519030839607380
+    "celery!=5.6.1",      # Exclude celery v5.6.1 due to https://discord.com/channels/399006117012832262/588572778366500864/1455519030839607380
+    "django-esi>=9.10.1" # Limit aiopenapi3 to below 0.11.0, see https://gitlab.com/allianceauth/django-esi/-/work_items/66
 ]
 urls.Changelog = "https://github.com/ppfeufer/aa-dependency-overrides/blob/master/CHANGELOG.md"
 urls.Documentation = "https://github.com/ppfeufer/aa-dependency-overrides/blob/master/README.md"
